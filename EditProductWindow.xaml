@@ -1,0 +1,17 @@
+﻿<Window x:Class="WpfApp7.EditProductWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Edit Product" ResizeMode="NoResize" Height="300" Width="500">
+    <Grid>
+        <Label Content="Название:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="NameTextBox" HorizontalAlignment="Left" Margin="10,30,0,0" VerticalAlignment="Top" Width="200"/>
+
+        <Label Content="Цена(19,99):" HorizontalAlignment="Left" Margin="10,70,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="PriceTextBox" HorizontalAlignment="Left" Margin="10,90,0,0" VerticalAlignment="Top" Width="200" />
+
+        <Label Content="Скидка(19,99):" HorizontalAlignment="Left" Margin="10,130,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="DiscountTextBox" HorizontalAlignment="Left" Margin="10,150,0,0" VerticalAlignment="Top" Width="200" />
+
+        <Button Content="Редактировать" HorizontalAlignment="Left" Margin="10,200,0,0" VerticalAlignment="Top" Width="100" Click="UpdateButton_Click"/>
+    </Grid>
+</Window>
